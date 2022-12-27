@@ -8,11 +8,11 @@ class ExampleAuth extends Controller {
     }
 
     public function register(Request $request) {
-        if($request->isLoggedIn()) {
+        if ($request->isLoggedIn()) {
             redirect('/example/dashboard');
         }
 
-        if($request->isPost()) {
+        if ($request->isPost()) {
 //            Input data
             $body = $request->getBody();
             $data = [
@@ -28,19 +28,19 @@ class ExampleAuth extends Controller {
             ];
 
 //            Validate data
-            if(empty($data['name'])) {
+            if (empty($data['name'])) {
                 $data['name_error'] = 'Please enter a valid name';
             }
 
-            if(empty($data['email'])) {
+            if (empty($data['email'])) {
                 $data['email_error'] = 'Please enter a valid email';
-            }else if($this->userModel->findUserByEmail($data['email'])) {
+            }elseif ($this->userModel->findUserByEmail($data['email'])) {
                 $data['email_error'] = 'Email is already registered';
             }
 
-            if(empty($data['password'])) {
+            if (empty($data['password'])) {
                 $data['password_error'] = 'Please enter a valid password';
-            }else if($data['password'] !== $data['confirm_password']) {
+            }elseif ($data['password'] !== $data['confirm_password']) {
                 $data['confirm_password_error'] = 'Please confirm the password';
             }
 
@@ -133,7 +133,7 @@ class ExampleAuth extends Controller {
         $_SESSION['user_email'] = $user->email;
         $_SESSION['user_name'] = $user->name;
 
-        if($rememberUser) {
+        if ($rememberUser) {
             $_SESSION['LAST_ACTIVITY'] = time();
         }
 
@@ -146,7 +146,5 @@ class ExampleAuth extends Controller {
         redirect('/example/login');
 //        TODO: REDIRECT USER TO LOGIN PAGE - USE redirect HELPER FUNCTION
     }
-
-
 
 }
