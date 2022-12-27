@@ -1,7 +1,7 @@
 <?php
 
 class ExampleRestAPI {
-    function testAPI(Request $request) {
+    public function testAPI(Request $request) {
         $option = $request->getBody();
         $data = [];
         if ( $option == 1 ) {
