@@ -1,5 +1,5 @@
 <?php
-
+// Edited
 class ExampleDashboard extends Controller {
     private $dashboardModel;
 
