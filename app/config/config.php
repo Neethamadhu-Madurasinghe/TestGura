@@ -1,11 +1,11 @@
 <?php
 
 // Database related configurations
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'example');
+const DB_HOST = 'localhost';
+const DB_USER = 'root';
+const DB_PASSWORD = '';
+const DB_NAME = 'example';
 
-define('APPROOT', dirname(dirname(__FILE__)));
-define('ROOT', dirname(dirname(dirname(__FILE__))));
-define('URLROOT', 'http://localhost/Unigura');
+define('APPROOT', dirname(__FILE__, 2));
+define('ROOT', dirname(__FILE__, 3));
+const URLROOT = 'http://localhost/Unigura';
