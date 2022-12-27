@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8eff33dc-e014-4357-a9e8-53b7c6074581" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ExampleRestAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ExampleRestAPI.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
