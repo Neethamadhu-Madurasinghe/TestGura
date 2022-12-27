@@ -1,8 +1,8 @@
 <?php
 
 class TestController {
-    public function helloWorld() {
-        echo 'Hello';
+    function helloWorld() {
+        echo 'hello world';
     }
 }
 
