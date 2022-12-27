@@ -1,5 +1,5 @@
 <?php
-
+// Comment
 class ExampleAuth extends Controller {
     private $userModel;
 
