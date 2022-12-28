@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eff33dc-e014-4357-a9e8-53b7c6074581" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ExampleRestAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ExampleRestAPI.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +30,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/TestGura&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sonarlint&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -46,6 +47,8 @@
       <workItem from="1672140888852" duration="1490000" />
       <workItem from="1672142684562" duration="1011000" />
       <workItem from="1672145524792" duration="5666000" />
+      <workItem from="1672212368316" duration="1408000" />
+      <workItem from="1672248386924" duration="83000" />
     </task>
     <servers />
   </component>
@@ -62,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

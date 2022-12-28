@@ -4,7 +4,7 @@ class ExampleRestAPI {
     public function testAPI(Request $request) {
         $option = $request->getBody();
         $data = [];
-        if ( $option == 1 ) {
+        if($option == 1) {
             $data = [ 'a', 'b', 'c' ];
             // will encode to JSON array: ["a","b","c"]
             // accessed as example in JavaScript like: result[1] (returns "b")
